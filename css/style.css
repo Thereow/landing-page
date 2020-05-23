@@ -616,8 +616,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 
-#about {
-  padding: 60px 25px;
+@media (min-width: 996px) {
+  #about {
+    padding: 60px 25px;
+  }
 }
 
 #about .about-img {
