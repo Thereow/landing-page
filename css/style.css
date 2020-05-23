@@ -617,9 +617,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 @media (min-width: 996px) {
-  #about {
+  body #about {
     padding: 60px 25px;
   }
+}
+
+#about {
+  padding: 60px 0px;
 }
 
 #about .about-img {
